@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.5",
     "@mui/x-data-grid": "^5.17.2",
+    "@reduxjs/toolkit": "^1.8.5",
     "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -14,6 +14,7 @@ const Home: React.FC<HomeInterface> = () => {
 
   //le aclaras a ts que  vas a estar trabajando en un array de personas
   const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
+  //funcion para favoritos
   //cada qeu cambie la cajita lo que va a a pasar
   const handleChange = (person: Person) => {
     //recibe los paramantros de la linea
@@ -43,6 +44,8 @@ const Home: React.FC<HomeInterface> = () => {
     {
       //esta es un checkbox para darle fav a cada persona
       field: 'actions',
+      type: 'actions',
+      sortable: false,
       headerName: '',
       minWidth: 50,
       //pones el value de cada field, sin necesidad de maps ni nada de eso
